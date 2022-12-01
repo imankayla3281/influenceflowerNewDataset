@@ -2,6 +2,8 @@ import os
 import numpy as np
 import json
 
+id_list = []
+
 def txt_to_json(filename):
     with open(filename + ".txt") as f1:
         cNames = f1.readlines()
@@ -18,13 +20,17 @@ def txt_to_json(filename):
 def getID(filename):
     f = open(filename + '.json')
     data = json.load(f)
-    id_list = []
     for i in data:
         id_list.append(i['sha'])
 
     print(id_list)
 
     f.close()
+    
+def saveID():
+    with open("all-paper-ids.txt", "w") as output:
+        output.write(str(id_list))
 
 txt_to_json("sample_two")
 getID("sample_two")
+saveID()
