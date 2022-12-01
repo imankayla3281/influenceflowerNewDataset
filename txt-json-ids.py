@@ -31,6 +31,25 @@ def saveID():
     with open("all-paper-ids.txt", "w") as output:
         output.write(str(id_list))
 
-txt_to_json("sample_two")
-getID("sample_two")
+txt_to_json("one")
+getID("one")
+
+txt_to_json("two")
+getID("two")
+
+txt_to_json("three")
+getID("three")
+
+txt_to_json("four")
+getID("four")
+
+txt_to_json("five")
+getID("five")
+
+txt_to_json("six")
+getID("six")
+
+txt_to_json("seven")
+getID("seven")
+
 saveID()
