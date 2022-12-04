@@ -53,3 +53,5 @@ txt_to_json("seven")
 getID("seven")
 
 saveID()
+Can we please talkk.. i promise wont text any of r friends or group pleasseee... i just want to be with u kayla... pleasee
+@kayla-lixinyi give me a final chance pleasee
